@@ -1,0 +1,232 @@
+<html>
+<style>
+
+{% load static %}
+body{
+    background-image: url("{% static 'img/bbbb.jpg' %}");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    font-family: Helvetica;
+    -webkit-font-smoothing: antialiased;
+    
+}
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+</style>
+<title>BOAT- Airdopes</title>
+<body onload="makeTableScroll();">
+
+
+
+<table style="background-color: rgb(173, 108, 34); color: white;">
+    <tr>
+        <th style="width:82%">
+            <h1>BOAT - Airdopes</h1>
+        </th>
+        <th>
+            <a href="{% url 'cat_boat' %}">
+                <img src="{% static 'img/menu/back.jpg' %}">
+              </a>
+        </th>
+    </tr>
+</table>
+<br>
+<hr>
+{% load static %}
+<div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Airdopes 138/131</h4></div>
+      <a target="_blank" href="{% static 'img/boat/airdopes138.jpg' %}">
+        <img src="{% static 'img/boat/airdopes138.jpg' %}" alt="rockerz260" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Airdopes 148</h4></div>
+      <a target="_blank" href="{% static 'img/boat/airdopes148.jpg' %}">
+        <img src="{% static 'img/boat/airdopes148.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Airdopes 138/131 Pro</h4></div>
+      <a target="_blank" href="{% static 'img/boat/airdopes138pro.jpg' %}">
+        <img src="{% static 'img/boat/airdopes138pro.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Airdopes 121 V2</h4></div>
+      <a target="_blank" href="{% static 'img/boat/airdopes121v2.jpg' %}">
+        <img src="{% static 'img/boat/airdopes121v2.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Airdopes 121 Pro</h4></div>
+      <a target="_blank" href="{% static 'img/boat/airdopes121pro.jpg' %}">
+        <img src="{% static 'img/boat/airdopes121pro.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Airdopes 100</h4></div>
+      <a target="_blank" href="{% static 'img/boat/airdopes100.jpg' %}">
+        <img src="{% static 'img/boat/airdopes100.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Airdopes 113</h4></div>
+      <a target="_blank" href="{% static 'img/boat/airdopes113.jpg' %}">
+        <img src="{% static 'img/boat/airdopes113.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Airdopes 163</h4></div>
+      <a target="_blank" href="{% static 'img/boat/airdopes163.jpg' %}">
+        <img src="{% static 'img/boat/airdopes163.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Airdopes 181/183</h4></div>
+      <a target="_blank" href="{% static 'img/boat/airdopes181.jpg' %}">
+        <img src="{% static 'img/boat/airdopes181.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Airdopes 190</h4></div>
+      <a target="_blank" href="{% static 'img/boat/airdopes190.jpg' %}">
+        <img src="{% static 'img/boat/airdopes190.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Airdopes 191G</h4></div>
+      <a target="_blank" href="{% static 'img/boat/airdopes191g.jpg' %}">
+        <img src="{% static 'img/boat/airdopes191g.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Airdopes Atom 81</h4></div>
+      <a target="_blank" href="{% static 'img/boat/airdopes_atom81.jpg' %}">
+        <img src="{% static 'img/boat/airdopes_atom81.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Airdopes Nirvana Ion</h4></div>
+      <a target="_blank" href="{% static 'img/boat/airdopes_nirvana_ion.jpg' %}">
+        <img src="{% static 'img/boat/airdopes_nirvana_ion.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Airdopes 501 ANC</h4></div>
+      <a target="_blank" href="{% static 'img/boat/airdopes501anc.jpg' %}">
+        <img src="{% static 'img/boat/airdopes501anc.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Airdopes 411 ANC</h4></div>
+      <a target="_blank" href="{% static 'img/boat/airdopes411anc.jpg' %}">
+        <img src="{% static 'img/boat/airdopes411anc.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Airdopes 393 ANC</h4></div>
+      <a target="_blank" href="{% static 'img/boat/airdopes393anc.jpg' %}">
+        <img src="{% static 'img/boat/airdopes393anc.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>
+
+
+
+

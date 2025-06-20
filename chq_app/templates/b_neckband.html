@@ -1,0 +1,277 @@
+<html>
+<style>
+
+{% load static %}
+body{
+    background-image: url("{% static 'img/back.jpg' %}");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    font-family: Helvetica;
+    -webkit-font-smoothing: antialiased;
+    
+}
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+</style>
+<title>BOAT- Neckband</title>
+<body onload="makeTableScroll();">
+
+
+
+<table style="background-color: rgb(173, 108, 34); color: white;">
+    <tr>
+        <th style="width:82%">
+            <h1>BOAT - Neckband</h1>
+        </th>
+        <th>
+            <a href="{% url 'cat_boat' %}">
+                <img src="{% static 'img/menu/back.jpg' %}">
+              </a>
+        </th>
+    </tr>
+</table>
+<br>
+<hr>
+{% load static %}
+<div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Rockerz 260</h4></div>
+      <a href="{% static 'img/boat/rockerz260.jpg' %}">
+        <img src="{% static 'img/boat/rockerz260.jpg' %}" alt="rockerz260" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Rockerz 195 Pro</h4></div>
+      <a target="_blank" href="{% static 'img/boat/rockerz195p.jpg' %}">
+        <img src="{% static 'img/boat/rockerz195p.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Rockerz 255R</h4></div>
+      <a target="_blank" href="{% static 'img/boat/rockerz255r.jpg' %}">
+        <img src="{% static 'img/boat/rockerz255r.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Rockerz 255 Pro Plus</h4></div>
+      <a target="_blank" href="{% static 'img/boat/rockerz255proplus.jpg' %}">
+        <img src="{% static 'img/boat/rockerz255proplus.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Rockerz 238 Pro</h4></div>
+      <a target="_blank" href="{% static 'img/boat/rockerz238pro.jpg' %}">
+        <img src="{% static 'img/boat/rockerz238pro.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Rockerz 235 V2</h4></div>
+      <a target="_blank" href="{% static 'img/boat/rockerz235v2.jpg' %}">
+        <img src="{% static 'img/boat/rockerz235v2.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Rockerz 330</h4></div>
+      <a target="_blank" href="{% static 'img/boat/rockerz330.jpg' %}">
+        <img src="{% static 'img/boat/rockerz330.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Rockerz 333</h4></div>
+      <a target="_blank" href="{% static 'img/boat/rockerz333.jpg' %}">
+        <img src="{% static 'img/boat/rockerz333.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Rockerz 333 ANC</h4></div>
+      <a target="_blank" href="{% static 'img/boat/rockerz333anc.jpg' %}">
+        <img src="{% static 'img/boat/rockerz333anc.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Rockerz Apex</h4></div>
+      <a target="_blank" href="{% static 'img/boat/rockerz_apex.jpg' %}">
+        <img src="{% static 'img/boat/rockerz_apex.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Rockerz Trinity</h4></div>
+      <a target="_blank" href="{% static 'img/boat/rockerz_trinity.jpg' %}">
+        <img src="{% static 'img/boat/rockerz_trinity.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Rockerz 255 Max</h4></div>
+      <a target="_blank" href="{% static 'img/boat/rockerz255max.jpg' %}">
+        <img src="{% static 'img/boat/rockerz255max.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Rockerz 235 Pro</h4></div>
+      <a target="_blank" href="{% static 'img/boat/rockerz235pro.jpg' %}">
+        <img src="{% static 'img/boat/rockerz235pro.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Rockerz 258 Pro</h4></div>
+      <a target="_blank" href="{% static 'img/boat/rockerz258pro.jpg' %}">
+        <img src="{% static 'img/boat/rockerz258pro.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Rockerz 258 Pro Plus</h4></div>
+      <a target="_blank" href="{% static 'img/boat/rockerz258pro_plus.jpg' %}">
+        <img src="{% static 'img/boat/rockerz258pro_plus.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Rockerz 255 Pro</h4></div>
+      <a target="_blank" href="{% static 'img/boat/rockerz255pro.jpg' %}">
+        <img src="{% static 'img/boat/rockerz255pro.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Rockerz 185 Pro</h4></div>
+      <a target="_blank" href="{% static 'img/boat/rockerz185pro.jpg' %}">
+        <img src="{% static 'img/boat/rockerz185pro.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Rockerz 245 V2</h4></div>
+      <a target="_blank" href="{% static 'img/boat/rockerz245v2.jpg' %}">
+        <img src="{% static 'img/boat/rockerz245v2.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Rockerz 103 Pro</h4></div>
+      <a target="_blank" href="{% static 'img/boat/rockerz103pro.jpg' %}">
+        <img src="{% static 'img/boat/rockerz103pro.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Rockerz 333 Pro</h4></div>
+      <a target="_blank" href="{% static 'img/boat/rockerz333pro.jpg' %}">
+        <img src="{% static 'img/boat/rockerz333pro.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Rockerz 330 Pro</h4></div>
+      <a target="_blank" href="{% static 'img/boat/rockerz330pro.jpg' %}">
+        <img src="{% static 'img/boat/rockerz330pro.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>
+
+
+
+

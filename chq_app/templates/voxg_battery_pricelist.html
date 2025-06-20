@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+<style>
+  .button-74 {
+  background-color: #6dce7d;
+  border: 2px solid #03238b;
+  border-radius: 30px;
+  box-shadow: #03238b 4px 4px 0 0;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-74:hover {
+  background-color: #4172f8;
+  color: rgb(255, 255, 255);
+}
+
+.button-74:active {
+  box-shadow: #03238b 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+</style>
+<html> 
+<head> 
+    <title>VOXG Battery Price List</title> 
+</head> 
+<body> 
+  {% load static %}
+    <center> 
+        <h1 style="color: rgb(0, 65, 0)">VOXG Battery Price List <a type="button" class="button-74" href='/'>Home</a></h1> 
+        
+        <embed src= 
+"{% static 'pdf/Voxg_battery.pdf' %}" 
+               width="100%"
+               height="800"> 
+    
+</body> 
+</html>

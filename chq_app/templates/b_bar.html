@@ -1,0 +1,233 @@
+<html>
+<style>
+
+{% load static %}
+body{
+    background-image: url("{% static 'img/back.jpg' %}");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    font-family: Helvetica;
+    -webkit-font-smoothing: antialiased;
+    
+}
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+</style>
+<title>BOAT- BAR & Home Theatre</title>
+<body onload="makeTableScroll();">
+
+
+
+<table style="background-color: rgb(173, 108, 34); color: white;">
+    <tr>
+        <th style="width:82%">
+            <h1>BOAT - BAR & Home Theatre</h1>
+        </th>
+        <th>
+            <a href="{% url 'cat_boat' %}">
+                <img src="{% static 'img/menu/back.jpg' %}">
+              </a>
+        </th>
+    </tr>
+</table>
+<br>
+<hr>
+{% load static %}
+<div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Aavante Bar 1280/1200</h4></div>
+      <a target="_blank" href="{% static 'img/boat/aavantebar1280_1200.jpg' %}">
+        <img src="{% static 'img/boat/aavantebar1280_1200.jpg' %}" alt="rockerz260" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Aavante Bar 1300</h4></div>
+      <a target="_blank" href="{% static 'img/boat/aavantebar1300.jpg' %}">
+        <img src="{% static 'img/boat/aavantebar1300.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Aavante Bar 1580/1550</h4></div>
+      <a target="_blank" href="{% static 'img/boat/aavantebar1580_1550.jpg' %}">
+        <img src="{% static 'img/boat/aavantebar1580_1550.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Aavante Bar 1400</h4></div>
+      <a target="_blank" href="{% static 'img/boat/aavantebar1400.jpg' %}">
+        <img src="{% static 'img/boat/aavantebar1400.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Aavante Bar 503</h4></div>
+      <a target="_blank" href="{% static 'img/boat/aaavantebar503.jpg' %}">
+        <img src="{% static 'img/boat/aavantebar503.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Aavante Bar 553</h4></div>
+      <a target="_blank" href="{% static 'img/boat/aavantebar553.jpg' %}">
+        <img src="{% static 'img/boat/aavantebar553.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Aavante Bar 600</h4></div>
+      <a target="_blank" href="{% static 'img/boat/aavantebar600.jpg' %}">
+        <img src="{% static 'img/boat/aavantebar600.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Aavante Bar 1160/1150</h4></div>
+      <a target="_blank" href="{% static 'img/boat/aavantebar1160.jpg' %}">
+        <img src="{% static 'img/boat/aavantebar1160.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Aavante Bar 1180</h4></div>
+      <a target="_blank" href="{% static 'img/boat/aavantebar1180.jpg' %}">
+        <img src="{% static 'img/boat/aavantebar1180.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Aavante Bar 1190/1198</h4></div>
+      <a target="_blank" href="{% static 'img/boat/aavantebar1190_1198.jpg' %}">
+        <img src="{% static 'img/boat/aavantebar1190_1198.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Aavante Bar 900</h4></div>
+      <a target="_blank" href="{% static 'img/boat/aavantebar900.jpg' %}">
+        <img src="{% static 'img/boat/aavantebar900.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Blitz 1508</h4></div>
+      <a target="_blank" href="{% static 'img/boat/blitz1508.jpg' %}">
+        <img src="{% static 'img/boat/blitz1508.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Blitz 2008</h4></div>
+      <a target="_blank" href="{% static 'img/boat/blitz2008.jpg' %}">
+        <img src="{% static 'img/boat/blitz2008.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Aavante Bar Tune</h4></div>
+      <a target="_blank" href="{% static 'img/boat/aavantebar_tune.jpg' %}">
+        <img src="{% static 'img/boat/aavantebar_tune.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Aavante Bar Raga</h4></div>
+      <a target="_blank" href="{% static 'img/boat/aavantebar_raga.jpg' %}">
+        <img src="{% static 'img/boat/aavantebar_raga.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Aavante Bar Aura</h4></div>
+      <a target="_blank" href="{% static 'img/boat/aavantebar_aura.jpg' %}">
+        <img src="{% static 'img/boat/aavantebar_aura.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,241 @@
+<html>
+<style>
+
+{% load static %}
+body{
+    background-image: url("{% static 'img/back.jpg' %}");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    font-family: Helvetica;
+    -webkit-font-smoothing: antialiased;
+    
+}
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+</style>
+<title>BOAT- Speaker</title>
+<body onload="makeTableScroll();">
+
+
+
+<table style="background-color: rgb(173, 108, 34); color: white;">
+    <tr>
+        <th style="width:82%">
+            <h1>BOAT - Speaker</h1>
+        </th>
+        <th>
+            <a href="{% url 'cat_boat' %}">
+                <img src="{% static 'img/menu/back.jpg' %}">
+              </a>
+        </th>
+    </tr>
+</table>
+<br>
+<hr>
+{% load static %}
+<div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Stone 190/193</h4></div>
+      <a target="_blank" href="{% static 'img/boat/stone193.jpg' %}">
+        <img src="{% static 'img/boat/stone193.jpg' %}" alt="rockerz260" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Stone 190 Marvel</h4></div>
+      <a target="_blank" href="{% static 'img/boat/stone190marvel.jpg' %}">
+        <img src="{% static 'img/boat/stone190marvel.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Stone 1200/1208</h4></div>
+      <a target="_blank" href="{% static 'img/boat/stone1200.jpg' %}">
+        <img src="{% static 'img/boat/stone1200.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Stone 650/650R</h4></div>
+      <a target="_blank" href="{% static 'img/boat/stone650.jpg' %}">
+        <img src="{% static 'img/boat/stone650.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Stone 350/358</h4></div>
+      <a target="_blank" href="{% static 'img/boat/stone350.jpg' %}">
+        <img src="{% static 'img/boat/stone350.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Stone Rugby Plus</h4></div>
+      <a target="_blank" href="{% static 'img/boat/stone_rugbyplus.jpg' %}">
+        <img src="{% static 'img/boat/stone_rugbyplus.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Stone 170</h4></div>
+      <a target="_blank" href="{% static 'img/boat/stone170.jpg' %}">
+        <img src="{% static 'img/boat/stone170.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Stone Grenade</h4></div>
+      <a target="_blank" href="{% static 'img/boat/stone_grenade.jpg' %}">
+        <img src="{% static 'img/boat/stone_grenade.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Stone 1000 V2</h4></div>
+      <a target="_blank" href="{% static 'img/boat/stone1000v2.jpg' %}">
+        <img src="{% static 'img/boat/stone1000v2.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Stone 1010</h4></div>
+      <a target="_blank" href="{% static 'img/boat/stone1010.jpg' %}">
+        <img src="{% static 'img/boat/stone1010.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Symphony</h4></div>
+      <a target="_blank" href="{% static 'img/boat/symphony_speaker.jpg' %}">
+        <img src="{% static 'img/boat/symphony_speaker.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Partypal 23</h4></div>
+      <a target="_blank" href="{% static 'img/boat/partypal23.jpg' %}">
+        <img src="{% static 'img/boat/partypal23.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Partypal 200/208</h4></div>
+      <a target="_blank" href="{% static 'img/boat/partypal208.jpg' %}">
+        <img src="{% static 'img/boat/partypal208.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Partypal 63</h4></div>
+      <a target="_blank" href="{% static 'img/boat/partypal63.jpg' %}">
+        <img src="{% static 'img/boat/partypal63.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Stone 500</h4></div>
+      <a target="_blank" href="{% static 'img/boat/stone500.jpg' %}">
+        <img src="{% static 'img/boat/stone500.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Stone 620</h4></div>
+      <a target="_blank" href="{% static 'img/boat/stone620.jpg' %}">
+        <img src="{% static 'img/boat/stone620.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="desc"><h4>Partypal 50</h4></div>
+      <a target="_blank" href="{% static 'img/boat/partypal50.jpg' %}">
+        <img src="{% static 'img/boat/partypal50.jpg' %}" alt="rockerz195p" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>
+
+
+
+

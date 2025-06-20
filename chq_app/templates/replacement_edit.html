@@ -1,0 +1,268 @@
+<!doctype html>
+<style>
+  {% load static %}
+  body {
+    
+    background-image: url("{% static 'img/bbbb.jpg' %}");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+	
+  .alert {
+  padding: 20px;
+  background-color: #04AA6D;
+  color: white;
+  opacity: 1;
+  transition: opacity 0.6s;
+  margin-bottom: 15px;
+  }
+
+  .closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+	.center {
+  margin: auto;
+  width: 100%;
+}
+
+.button {
+  background-color: #008CBA; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button1:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.round1 {
+  
+  
+  padding: 25px;
+}
+
+.logbtn {
+  background-color: #ffffff;
+  color: black;
+  padding: 7px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.grade {
+  height: 72px;
+  /* background-image: linear-gradient(to left, rgba(255,0,0,0), #343a40); */
+}
+#main tr:nth-child(even) { 
+  background-color: #e2f3dd;
+}
+#main tr:nth-child(odd) { 
+  background-color: #ffffff;
+}
+.button-31 {
+  background-color: #343a40;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  max-width: none;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+
+.button-31:hover,
+.button-31:focus {
+  opacity: .85;
+}
+
+
+	
+</style>
+
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Replacement Management</title>
+    {% load static %}
+    <link rel="icon" type="image/x-icon" href="{% static 'img/menu/kkk.png' %}">
+  </head>
+  <body>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	
+	
+	<nav style="background-color: #343a40;position: fixed;overflow: hidden;top: 0;width: 100%;" class="navbar navbar-expand-lg navbar-dark ">
+	
+    {% load static %}
+  <a class="navbar-brand" href='/'><img style="width:180px;height:65px;" src="{% static 'img/menu/logo.png' %}"></a>
+  {% if request.user.is_authenticated %}
+  <h5 style="color: azure;"><i class="fa fa-user" style="font-size:32px;color:rgb(43, 145, 33)"></i>   {{ request.user.first_name }}</h5>
+  <a style="color: red; background-color: #343a40;font-size: 18px;" href={% url 'logout' %} type="button" class="btn btn-dnger"><i class="fa fa-power-off" style="font-size:20px;color:red"></i>  Log out</a>
+  <a style="color: rgb(0, 255, 255); background-color: #343a40;font-size: 18px;" href='/' type="button" class="btn btn-dnger"><i class="fa fa-home" style="font-size:20px;color:rgb(0, 255, 255)"></i>  Home</a>
+  <div style="width: 50%;"><div class="gcse-search"></div></div>
+  {% else %}
+  <a style="color: azure;" href={% url 'login' %} type="button" class="btn btn-alert">Log In</a>
+  <div style="width: 50%;"><div class="gcse-search"></div></div>
+  {% endif %}
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  </nav>
+  
+  <div class="grade"><h1 class="display-4" style="color: #343a40;margin-top: 90px;text-align: center;"><b>View & Edit Replacement Details</b></h1></div><hr>
+  
+  {% if request.user.is_authenticated %}
+  
+  <div class="center">
+  
+	<form class="form round1" action="" method="post" enctype="multipart/form-data">
+  {% csrf_token %}
+  {% load static %}
+            <table>
+                <tr>
+                  <th style="color: #343a40;">Date:</th><th>{{repl_form.date}}</th>
+                </tr>
+                <tr>
+                  <th style="color: #343a40;">Received Challan:</th><th>{{repl_form.recv_challan}}</th>
+                </tr>
+                <tr>
+                  <th style="color: #343a40;">Client:</th><th>{{repl_form.client}}</th>
+                </tr>
+                <tr>
+                  <th style="color: #343a40;">Item Details:</th><th>{{repl_form.item}}</th>
+                </tr>
+                <tr>
+                  <th style="color: #343a40;">Total Quantity:</th><th>{{repl_form.qty}}</th>
+                </tr>
+                <tr>
+                  <th style="color: #343a40;">Agent:</th><th>{{repl_form.agent}}</th>
+                </tr>
+                <tr>
+                  <th style="color: #343a40;">Status:</th><th>{{repl_form.status}}</th>
+                </tr>
+                <tr>
+                  <th style="color: #343a40;">Issue:</th><th>{{repl_form.issue}}</th>
+                </tr>
+                <tr>
+                  <th style="color: #343a40;">Delivery Doc.:</th><th>{{repl_form.delv_doc}}</th>
+                </tr>
+                <tr>
+                  <th style="color: #343a40;">Delivery Date:</th><th>{{repl_form.delv_date}}</th>
+                </tr>
+                <tr>
+                  <th style="color: #343a40;">Remarks:</th><th>{{repl_form.remarks}}</th>
+                </tr>
+                <tr>
+                  <th style="color: #343a40;">Serial No.:</th><th>{{repl_form.bar}}</th>
+                </tr>
+                <tr>
+                  <th style="color: #343a40;">Document Image:</th><th>{{repl_form.img}}</th>
+                </tr>
+              </table>
+              <br>
+			<table>
+				<th><button class="button-31" type="submit">Update</button></th>
+        <th><br></th>
+				<th><a href="{% url 'filter_replacement' %}" class="button-31">Cancel</a><th>
+			</table>
+      <br>
+			<div>
+              {% for message in messages %}
+				<div class="alert success">
+				<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>  
+				<strong>Success!</strong> {{message}} <a href="{% url 'filter_replacement' %}" class="alert-link">Go Back</a>
+				</div>
+          {% endfor %}
+          </div>
+</form>
+	
+  
+  </div>
+  {% else %}
+      <div class="container">
+      <table>
+        <tr>
+          <th><h5>No user logged in...</h5></th><hr>
+        </tr>
+      </table>
+    </div>
+		{% endif %}
+  
+	
+	
+	
+	
+	
+	
+	
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
+
+<script async src="https://cse.google.com/cse.js?cx=90954e1c42eab42d8">
+</script>
